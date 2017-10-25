@@ -26,5 +26,6 @@ def find_the_cheese(foods)
 
   foods.select do |food|
     food == "cheddar" || food == "gouda" || food == "camembert"
+    food.split(" ")
   end
 end
