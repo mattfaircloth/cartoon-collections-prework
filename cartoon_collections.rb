@@ -29,7 +29,7 @@ def find_the_cheese(foods)
       return cheese
     end
     else
-      return NIL
+      return nil
     end
   end
 end
