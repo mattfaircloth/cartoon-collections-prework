@@ -26,7 +26,7 @@ def find_the_cheese(foods)
 
   if foods.select do |food|
     food == "cheddar" || food == "gouda" || food == "camembert"
-  else 
+  else
     nil
   end
 end
