@@ -25,7 +25,7 @@ def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   foods.select do |food|
-    food == "cheddar" || food == "gouda" || food == "camembert"
-    food.split(" ")
+    food == "cheddar".split("") || food == "gouda" || food == "camembert"
+    
   end
 end
