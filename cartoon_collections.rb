@@ -24,8 +24,9 @@ def find_the_cheese(foods)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  foods.select do |food|
+  if foods.select do |food|
     food == "cheddar" || food == "gouda" || food == "camembert"
-    
+  else 
+    nil
   end
 end
